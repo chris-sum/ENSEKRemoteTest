@@ -98,6 +98,7 @@ namespace ENSEKExercise.Models
 				}
 				ensekDB.SaveChanges();
 			}
+
 			return ("There were " + readingList.Count() + " successful entries and " + unsuccessfulCount + " unsuccessful entries.");
 		}
 
